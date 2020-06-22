@@ -326,23 +326,10 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 24px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-}
-
-.section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #34b7a7;
-  bottom: 0;
-  left: calc(50% - 25px);
 }
 
 .section-title p {
